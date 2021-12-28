@@ -14,7 +14,7 @@ todoForm.addEventListener("submit", function(e) {
 
     
     if (title === "" || description === "") {
-        alert("Please fill all fileds");
+        alert("Please Fill All The Fields");
         document.querySelector("#title").value = "";
         document.querySelector("#des").value = "";
 
