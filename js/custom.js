@@ -43,6 +43,9 @@ todoForm.addEventListener("submit", function(e) {
 });
 
 
+// Show Data
+
+
 function showData(){
 
     let localGet = localStorage.getItem("M3Todo");
@@ -72,6 +75,9 @@ function showData(){
         appDataBody.innerHTML = li ;
 
 }
+
+
+// Remove data on click
 
 function remove(index){
     let localGet = localStorage.getItem("M3Todo");
